@@ -5,14 +5,15 @@ from datetime import datetime, timedelta
 
 
 def main():
+    # default states
     ticker = "AAPL"
     half_year = datetime.date(datetime.now() - timedelta(days=182))
     tickerData = yf.Ticker(ticker)
+    info = tickerData.info
 
     st.set_page_config(layout="wide")
-    st.write("## Данные о биржевых котировках компании APPLE")
-    # default states
-
+    st.write("## Данные о биржевых котировках компании Apple")
+    st.write(f"### Тикер: ", ticker, ", Название: ", info.get('shortName'), ", Направление: ", info.get('sector'))    
 
     with st.sidebar:
         with st.form("graph1"):
@@ -44,24 +45,31 @@ def main():
             st.form_submit_button("Применить")
 
 
-
     with st.container(border=True):
+        # Configure Dataframe
         tickerDf_first = tickerData.history(period='1d', start=start_date_one, end=end_day_one)
+        # Title
         st.write("## График №1: ", choise_one)
         st.write(f"С {start_date_one} по {end_day_one}")
+        # Draw figure
         st.line_chart(tickerDf_first[selection_one])
-
+        
+        # save dataframe to file
         st.download_button(label="Сохранить данные графика",
                            data=tickerDf_first[selection_one].to_csv().encode("utf-8"),
                            file_name="Data_figure1.csv",
                            mime="text/csv")
         
     with st.container(border=True):
+        # Configure Dataframe
         tickerDf_second = tickerData.history(period='1d', start=start_date_two, end=end_day_two)
+        # Title
         st.write("## График №2: ", choise_two)
         st.write(f"С {start_date_two} по {end_day_two}")
+        # Draw figure
         st.line_chart(tickerDf_second[selection_two])
 
+        # save dataframe to file
         st.download_button(label="Сохранить данные графика",
                            data=tickerDf_second[selection_two].to_csv().encode("utf-8"),
                            file_name="Data_figure2.csv",
