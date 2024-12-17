@@ -51,3 +51,68 @@ urllib3==2.2.3
 watchdog==6.0.0
 webencodings==0.5.1
 yfinance==0.2.50
+altair==5.5.0
+attrs==24.3.0
+beautifulsoup4==4.12.3
+blinker==1.9.0
+cachetools==5.5.0
+certifi==2024.12.14
+charset-normalizer==3.4.0
+click==8.1.7
+contourpy @ file:///home/conda/feedstock_root/build_artifacts/contourpy_1731428322366/work
+cycler @ file:///home/conda/feedstock_root/build_artifacts/cycler_1733332471406/work
+fonttools @ file:///home/conda/feedstock_root/build_artifacts/fonttools_1733908971715/work
+frozendict==2.4.6
+gitdb==4.0.11
+GitPython==3.1.43
+html5lib==1.1
+idna==3.10
+Jinja2==3.1.4
+jsonschema==4.23.0
+jsonschema-specifications==2024.10.1
+kiwisolver @ file:///home/conda/feedstock_root/build_artifacts/kiwisolver_1725459213453/work
+lxml==5.3.0
+markdown-it-py==3.0.0
+MarkupSafe==3.0.2
+matplotlib==3.10.0
+mdurl==0.1.2
+multitasking==0.0.11
+munkres==1.1.4
+narwhals==1.18.4
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1733688207250/work/dist/numpy-2.2.0-cp310-cp310-linux_x86_64.whl#sha256=093fcb0a49217a9cc2cd41219a4055c86e260aca12d8cd27b58bae10ad3a350b
+orjson==3.10.12
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1733203243479/work
+pandas @ file:///home/conda/feedstock_root/build_artifacts/pandas_1726878398774/work
+patsy @ file:///home/conda/feedstock_root/build_artifacts/patsy_1733792384640/work
+peewee==3.17.8
+pillow @ file:///home/conda/feedstock_root/build_artifacts/pillow_1729065631911/work
+platformdirs==4.3.6
+plotly==5.24.1
+protobuf==5.29.1
+pyarrow==18.1.0
+pydeck==0.9.1
+Pygments==2.18.0
+pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1733222594562/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1733215673016/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1706886791323/work
+referencing==0.35.1
+requests==2.32.3
+rich==13.9.4
+rpds-py==0.22.3
+scipy @ file:///home/conda/feedstock_root/build_artifacts/scipy-split_1733620567294/work/dist/scipy-1.14.1-cp310-cp310-linux_x86_64.whl#sha256=740019bfe16f745f6d6adf96dea7ea3d9fdbae7d7d45ef25a7c4361bebd87257
+seaborn @ file:///home/conda/feedstock_root/build_artifacts/seaborn-split_1733730015268/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1733380938961/work
+smmap==5.0.1
+soupsieve==2.6
+statsmodels @ file:///home/conda/feedstock_root/build_artifacts/statsmodels_1727986707121/work
+streamlit==1.41.1
+tenacity==9.0.0
+toml==0.10.2
+tornado==6.4.2
+typing_extensions==4.12.2
+tzdata @ file:///home/conda/feedstock_root/build_artifacts/python-tzdata_1733235305708/work
+unicodedata2 @ file:///home/conda/feedstock_root/build_artifacts/unicodedata2_1729704533769/work
+urllib3==2.2.3
+watchdog==6.0.0
+webencodings==0.5.1
+yfinance==0.2.50
