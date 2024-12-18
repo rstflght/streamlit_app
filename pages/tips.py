@@ -4,10 +4,14 @@ import numpy as np
 import plotly.express as px
 
 
+# Настройка по ширине экрана
 st.set_page_config(layout="wide")
+
+# Оборачиваем приложение в контейнер, для создания рамки вокруг
 with st.container(border=True):
     st.title("Исследование датасета Tips")
 
+    # Загружаем датасет
     tips = st.sidebar.file_uploader('Загрузи CSV файл', type='csv')
     with st.container(border=True):
         if tips is not None:
@@ -19,6 +23,7 @@ with st.container(border=True):
         else:
             st.stop()
 
+    # Рисуем таблицы и графики
     with st.container(border=True):
         st.success("##### Создаем столбец time_order заполняем его случайной датой в промежутке от 2023-01-01 до 2023-01-31")
         df["time_order"] = [pd.to_datetime("2023-01-"+ str(x)) for x in np.random.randint(1, 32, 244)]
