@@ -1,213 +1,107 @@
-altair==5.5.0
-attrs==24.3.0
-beautifulsoup4==4.12.3
-blinker==1.9.0
-cachetools==5.5.0
-certifi==2024.12.14
-charset-normalizer==3.4.0
-click==8.1.7
-frozendict==2.4.6
-gitdb==4.0.11
-GitPython==3.1.43
-html5lib==1.1
-idna==3.10
-Jinja2==3.1.4
-jsonschema==4.23.0
-jsonschema-specifications==2024.10.1
-lxml==5.3.0
-markdown-it-py==3.0.0
-MarkupSafe==3.0.2
-mdurl==0.1.2
-multitasking==0.0.11
-narwhals==1.18.4
-numpy==2.2.0
-orjson==3.10.12
-packaging==24.2
-pandas==2.2.3
-peewee==3.17.8
-pillow==11.0.0
-platformdirs==4.3.6
-plotly==5.24.1
-protobuf==5.29.1
-pyarrow==18.1.0
-pydeck==0.9.1
-Pygments==2.18.0
-python-dateutil==2.9.0.post0
-pytz==2024.2
-referencing==0.35.1
-requests==2.32.3
-rich==13.9.4
-rpds-py==0.22.3
-six==1.17.0
-smmap==5.0.1
-soupsieve==2.6
-streamlit==1.41.1
-tenacity==9.0.0
-toml==0.10.2
-tornado==6.4.2
-typing_extensions==4.12.2
-tzdata==2024.2
-urllib3==2.2.3
-watchdog==6.0.0
-webencodings==0.5.1
-yfinance==0.2.50
-altair==5.5.0
-attrs==24.3.0
-beautifulsoup4==4.12.3
-blinker==1.9.0
-cachetools==5.5.0
-certifi==2024.12.14
-charset-normalizer==3.4.0
-click==8.1.7
-contourpy 
-cycler 
-fonttools 
-frozendict==2.4.6
-gitdb==4.0.11
-GitPython==3.1.43
-html5lib==1.1
-idna==3.10
-Jinja2==3.1.4
-jsonschema==4.23.0
-jsonschema-specifications==2024.10.1
-kiwisolver 
-lxml==5.3.0
-markdown-it-py==3.0.0
-MarkupSafe==3.0.2
-matplotlib==3.10.0
-mdurl==0.1.2
-multitasking==0.0.11
-munkres==1.1.4
-narwhals==1.18.4
-numpy 
-orjson==3.10.12
-packaging 
-pandas 
-patsy 
-peewee==3.17.8
-pillow 
-platformdirs==4.3.6
-plotly==5.24.1
-protobuf==5.29.1
-pyarrow==18.1.0
-pydeck==0.9.1
-Pygments==2.18.0
-pyparsing 
-python-dateutil
-pytz 
-referencing==0.35.1
-requests==2.32.3
-rich==13.9.4
-rpds-py==0.22.3
-scipy
-seaborn 
-six 
-smmap==5.0.1
-soupsieve==2.6
-statsmodels
-streamlit==1.41.1
-tenacity==9.0.0
-toml==0.10.2
-tornado==6.4.2
-typing_extensions==4.12.2
-tzdata 
-unicodedata2
-urllib3==2.2.3
-watchdog==6.0.0
-webencodings==0.5.1
-yfinance==0.2.50
-altair 
-appdirs
-asttokens
-attrs 
-beautifulsoup4
-blinker 
-Brotli 
-cachetools 
-certifi 
-cffi 
-charset-normalizer
-click 
-comm 
-debugpy 
-decorator 
-exceptiongroup
-executing 
-frozendict
-gitdb 
-GitPython
-h2 
-hpack 
-html5lib 
-hyperframe 
-idna 
-importlib_metadata
-importlib_resources 
-ipykernel 
-ipython 
-ipywidgets
-jedi 
-Jinja2
-jsonschema
-jsonschema-specifications 
-jupyter_client 
-jupyter_core 
-jupyterlab_widgets
-lxml 
-markdown-it-py
-MarkupSafe 
-matplotlib-inline
-mdurl 
-multitasking
-narwhals 
-nest_asyncio
-numpy 
-orjson 
-packaging
-pandas
-parso 
-peewee 
-pexpect
-pickleshare
-pillow 
-pkgutil_resolve_name
-platformdirs 
-plotly 
-prompt_toolkit
-protobuf 
-psutil 
-ptyprocess
-pure_eval 
-pyarrow==18.1.0
-pycparser
-pydeck 
-Pygments
-PySocks 
-python-dateutil
-pytz 
-PyYAML 
-pyzmq 
-referencing
-requests 
-rich
-rpds-py
-six 
-smmap
-soupsieve
-stack_data
-streamlit 
-tenacity 
-toml 
-tornado
-traitlets
-typing_extensions
-tzdata 
-tzlocal
-urllib3
-watchdog
-wcwidth 
-webencodings
-widgetsnbextension
-yfinance 
-zipp 
-zstandard==0.23.0
+ altair==5.5.0
+ appdirs==1.4.4
+ asttokens==3.0.0
+ attrs==24.3.0
+ beautifulsoup4==4.12.3
+ blinker==1.9.0
+ brotli==1.1.0
+ cachetools==5.5.0
+ certifi==2024.12.14
+ cffi==1.17.1
+ charset-normalizer==3.4.0
+ click==8.1.7
+ comm==0.2.2
+ contourpy==1.3.1
+ cycler==0.12.1
+ debugpy==1.8.11
+ decorator==5.1.1
+ exceptiongroup==1.2.2
+ executing==2.1.0
+ fonttools==4.55.3
+ frozendict==2.4.6
+ gitdb==4.0.11
+ gitpython==3.1.43
+ h2==4.1.0
+ hpack==4.0.0
+ html5lib==1.1
+ hyperframe==6.0.1
+ idna==3.10
+ importlib-metadata==8.5.0
+ importlib-resources==6.4.5
+ ipykernel==6.29.5
+ ipython==8.30.0
+ ipywidgets==8.1.5
+ jedi==0.19.2
+ jinja2==3.1.4
+ jsonschema==4.23.0
+ jsonschema-specifications==2024.10.1
+ jupyter-client==8.6.3
+ jupyter-core==5.7.2
+ jupyterlab-widgets==3.0.13
+ kiwisolver==1.4.7
+ lxml==5.3.0
+ markdown-it-py==3.0.0
+ markupsafe==3.0.2
+ matplotlib==3.10.0
+ matplotlib-inline==0.1.7
+ mdurl==0.1.2
+ multitasking==0.0.11
+ munkres==1.1.4
+ narwhals==1.18.4
+ nest-asyncio==1.6.0
+ numpy==2.2.0
+ orjson==3.10.12
+ packaging==24.2
+ pandas==2.2.3
+ parso==0.8.4
+ patsy==1.0.1
+ peewee==3.17.8
+ pexpect==4.9.0
+ pickleshare==0.7.5
+ pillow==11.0.0
+ pkgutil-resolve-name==1.3.10
+ platformdirs==4.3.6
+ plotly==5.24.1
+ prompt-toolkit==3.0.48
+ protobuf==5.29.1
+ psutil==6.1.0
+ ptyprocess==0.7.0
+ pure-eval==0.2.3
+ pyarrow==18.1.0
+ pycparser==2.22
+ pydeck==0.9.1
+ pygments==2.18.0
+ pyparsing==3.2.0
+ pysocks==1.7.1
+ python-dateutil==2.9.0.post0
+ pytz==2024.2
+ pyyaml==6.0.2
+ pyzmq==26.2.0
+ referencing==0.35.1
+ requests==2.32.3
+ rich==13.9.4
+ rpds-py==0.22.3
+ scipy==1.14.1
+ seaborn==0.13.2
+ six==1.17.0
+ smmap==5.0.1
+ soupsieve==2.6
+ stack-data==0.6.3
+ statsmodels==0.14.4
+ streamlit==1.41.1
+ tenacity==9.0.0
+ toml==0.10.2
+ tornado==6.4.2
+ traitlets==5.14.3
+ typing-extensions==4.12.2
+ tzdata==2024.2
+ tzlocal==5.2
+ unicodedata2==15.1.0
+ urllib3==2.2.3
+ watchdog==6.0.0
+ wcwidth==0.2.13
+ webencodings==0.5.1
+ widgetsnbextension==4.0.13
+ yfinance==0.2.50
+ zipp==3.21.0
+ zstandard==0.23.0
