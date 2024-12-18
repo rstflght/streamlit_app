@@ -7,7 +7,7 @@ ___
 * папка pages содержит дополнительную страницу tips.py - исследование датасета tips.csv
 * tist.csv - датасет
 * Dockerfile - иструкции для контейнеризации приложения в Docker
-  ___
+___
 * Cборка образа Docker: ```docker build -t streamlit_app:1 .```
 * Запуск образа: ```docker run --rm -d streamlit_app:1 ```
 ___
